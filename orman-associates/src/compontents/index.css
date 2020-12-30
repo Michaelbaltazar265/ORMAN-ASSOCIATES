@@ -1,0 +1,67 @@
+
+
+
+.container { 
+    padding: 10px;
+}
+
+.navbar-header { 
+    padding: 15px;
+}
+
+.active .header { 
+    padding: 10px;
+}
+
+.talkbubble { 
+    background-color: #FDFEFE ;
+    width: 1020px;
+    height: 150px;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 51px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid  #FDFEFE ;
+    border-bottom: 13px solid transparent;
+  }
+
+  .person { 
+      padding: 15px;
+  }
+
+  .card-columns { 
+      column-count: 2;
+      padding: 15px;
+  }
+  .item-list { 
+    padding: 15px;
+  }
+  
+  .services , .testimonial{ 
+    background: #F2F3F4;
+  }
+
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .card-body { 
+      padding: 15px;
+  }
+
+  .row { 
+      padding: 20px;
+  }
