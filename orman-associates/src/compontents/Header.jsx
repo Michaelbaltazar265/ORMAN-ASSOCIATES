@@ -16,7 +16,7 @@ const Header = () => {
           </div>
           <ul className="nav navbar-nav ">
             <li className="active">
-              <a href="https://www.buildzoom.com/contractor/orman-associates-inc">
+              <a href="#">
                 Home
               </a>
             </li>
@@ -25,33 +25,9 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a href="#services">Services</a>
-            </li>
-            <li className="dropdown">
-              <a
-                className="dropdown-toggle"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Page 1<span className="caret"></span>
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a href="https://www.buildzoom.com/contractor/orman-associates-inc">
-                    vnslvs
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.buildzoom.com/contractor/orman-associates-inc">
-                    nvvnslkv
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.buildzoom.com/contractor/orman-associates-inc">
-                    vsvsvds
-                  </a>
-                </li>
-              </ul>
+            </li> 
+            <li className="nav-item">
+              <a href="#services">Work</a>
             </li>
             <li className="nav-item">
               <a href="#testimonial">Testimonials</a>
@@ -62,8 +38,7 @@ const Header = () => {
 
             <li className="nav-item phone">
               <a className="p-2" href="tel:9255778030">
-                {" "}
-                (925) 577-8030{" "}
+                Click here to call now!!
               </a>
             </li>
           </ul>
