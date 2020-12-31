@@ -46,6 +46,18 @@ const Testimonial = () => {
             <p className="person">– Jamece, Homeowner</p>
           </div>
         </div>
+        <div className="row">
+          <h4 className="review-sites">
+            Checkout what are happy clients have to say on a few treated sites
+          </h4>
+          <div className="col-md-4 review">
+            <a href="https://www.yelp.com/biz/orman-and-associates-danville">
+            <img src="https://img.icons8.com/color/48/000000/yelp.png" alt='yelp'/>
+            </a>
+          </div>
+          <div className="col-md-4">mkslcs</div>
+          <div className="col-md-4">mkslcs</div>
+        </div>
       </div>
       <hr />
     </section>

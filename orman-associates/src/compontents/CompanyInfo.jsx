@@ -28,9 +28,9 @@ const CompanyInfo = () => {
             If you have any questions and would like to speak to us now call us
             now
           </h3>
-         
-          <p>
-            <a href="tel:9255778030"> (925) 577-8030 </a>
+          
+          <p className='phone-icon phone'>
+          <img src="https://img.icons8.com/ios-filled/26/000000/phone.png" alt='phone-icon'/><a className='p-2' href="tel:9255778030"> (925) 577-8030 </a>
           </p>
         </div>
       </div>
