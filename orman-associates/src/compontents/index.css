@@ -102,6 +102,25 @@
     padding: 4%;
   }
 
+  .buildZoom  { 
+    width: 70%;
+    padding: 40px;
+
+  }
+
+  .yelp { 
+    width: 30%;
+    padding: 10px;
+  }
+
+  .angies-list { 
+    width: 70%;
+    padding: 30px;
+  }
+
+
   .footer { 
     background-color: rgba(0, 0, 0, 0.2)
   }
+
+ 
