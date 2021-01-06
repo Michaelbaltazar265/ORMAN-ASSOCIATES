@@ -50,13 +50,21 @@ const Testimonial = () => {
           <h4 className="review-sites">
             Checkout what are happy clients have to say on a few treated sites
           </h4>
-          <div className="col-md-4 review">
+          <div className="col-md-4">
             <a href="https://www.yelp.com/biz/orman-and-associates-danville">
-            <img src="https://img.icons8.com/color/48/000000/yelp.png" alt='yelp'/>
+            <img className='yelp' src="../yelp_icon.png" alt='yelp'/>
             </a>
           </div>
-          <div className="col-md-4">mkslcs</div>
-          <div className="col-md-4">mkslcs</div>
+          <div className="col-md-4">
+            <a href="https://www.buildzoom.com/contractor/orman-associates-inc">
+              <img className='buildZoom' src="../buildZoom.png" alt="buildZoom"/>
+            </a>
+            </div>
+          <div className="col-md-4">
+            <a href="https://www.angieslist.com/companylist/us/ca/danville/orman-and-associates-reviews-8281423.htm">
+              <img className='angies-list' src="../angieslist-reviews.png" alt="angies-list"/>
+            </a>
+          </div>
         </div>
       </div>
       <hr />

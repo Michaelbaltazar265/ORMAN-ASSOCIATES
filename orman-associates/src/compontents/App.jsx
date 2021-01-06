@@ -30,11 +30,11 @@ class App extends React.Component {
 
   render() {
 
-    if(this.state.view.name === "work"){ 
+    if(this.state.view.name === "home"){ 
 
       return (
         <>
-          <Header setView={this.setView} />
+          <Header home={this.state.view} />
           <section className='gap'></section>
 
           < Quote />
