@@ -35,7 +35,7 @@ class App extends React.Component {
       return (
         <>
           <Header home={this.state.view} />
-          <section className='gap'></section>
+          <section className='gap' id='home'></section>
 
           < Quote />
           <div className="container">
