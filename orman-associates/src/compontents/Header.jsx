@@ -6,26 +6,16 @@ const Header = () => {
     <section className="navbar-section">
       <nav className="navbar navbar-expand-sm bg-light">
         <div className="container">
-          <div className="navbar-header">
-            <a
-              href="https://www.buildzoom.com/contractor/orman-associates-inc"
-              className="navbar-band"
-            >
-              Orman Associates
-            </a>
-          </div>
           <ul className="nav navbar-nav ">
-            <li className="active">
-              <a href="#home">
-                Home
-              </a>
+            <li className="nav-item">
+              <a href="#home">Orman & Associates, Inc</a>
             </li>
             <li className="nav-item">
               <a href="#about-us">About Us</a>
             </li>
             <li className="nav-item">
               <a href="#services">Services</a>
-            </li> 
+            </li>
             <li className="nav-item">
               <a href="#services">Work</a>
             </li>

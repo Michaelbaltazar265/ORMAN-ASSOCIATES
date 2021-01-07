@@ -5,13 +5,18 @@
     padding: 10px;
 }
 
-.navbar-header { 
-    padding: 15px;
+.logo {
+  width: 80px;
 }
 
-.active .header { 
-    padding: 10px;
+.navbar-nav .nav-item { 
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+  vertical-align: middle;
 }
+
+
 
 .talkbubble { 
     background-color: #FDFEFE ;
@@ -120,7 +125,9 @@
 
 
   .footer { 
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  
   }
 
  
