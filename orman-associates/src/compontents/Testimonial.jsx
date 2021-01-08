@@ -3,10 +3,10 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="testimonial" id="testimonial">
+    <section className="testimonial" id="reviews">
       <hr />
       <div className="container text-center">
-        <h1>Testimonial</h1>
+        <h1>Reviews</h1>
         <div className="row">
           <div className="talkbubble">
             <p>
@@ -20,8 +20,6 @@ const Testimonial = () => {
             </p>
             <p className="person">– Brenda Zwahlen, Broker</p>
           </div>
-        </div>
-        <div className="row">
           <div className="talkbubble">
             <p>
               “Extremely punctual and professional. They committed to starting
@@ -35,8 +33,6 @@ const Testimonial = () => {
             </p>
             <p className="person">– Jeannette Van Bibber, Homeowner</p>
           </div>
-        </div>
-        <div className="row">
           <div className="talkbubble">
             <p>
               “Very professional, always there when they said they would be! Our
@@ -52,17 +48,25 @@ const Testimonial = () => {
           </h4>
           <div className="col-md-4">
             <a href="https://www.yelp.com/biz/orman-and-associates-danville">
-            <img className='yelp' src="../yelp_icon.png" alt='yelp'/>
+              <img className="yelp" src="../yelp_icon.png" alt="yelp" />
             </a>
           </div>
           <div className="col-md-4">
             <a href="https://www.buildzoom.com/contractor/orman-associates-inc">
-              <img className='buildZoom' src="../buildZoom.png" alt="buildZoom"/>
+              <img
+                className="buildZoom"
+                src="../buildZoom.png"
+                alt="buildZoom"
+              />
             </a>
-            </div>
+          </div>
           <div className="col-md-4">
             <a href="https://www.angieslist.com/companylist/us/ca/danville/orman-and-associates-reviews-8281423.htm">
-              <img className='angies-list' src="../angieslist-reviews.png" alt="angies-list"/>
+              <img
+                className="angies-list"
+                src="../angieslist-reviews.png"
+                alt="angies-list"
+              />
             </a>
           </div>
         </div>

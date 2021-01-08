@@ -29,6 +29,7 @@
     text-align: center;
     padding: 20px;
     box-shadow: 2px 2px 4px rgb(65, 63, 63); 
+    margin: 20px;
 }
 
 .talkbubble:before {
@@ -46,6 +47,8 @@
 
   .person { 
       padding: 15px;
+      display: flex;
+      justify-content: flex-end;
   }
 
   .card-columns { 
@@ -128,6 +131,10 @@
     background-color: rgba(0, 0, 0, 0.2);
     padding: 30px;
   
+  }
+
+  a {
+    font-weight: bold;
   }
 
  
