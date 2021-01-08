@@ -24,7 +24,8 @@ const ContactUs = () => {
 
   return (
     <section className="contact-us" id="contact-us">
-      <div className="container">
+      <div className="container text-center">
+        <h1>Contact Us</h1>
         <form onSubmit={sendEmail}>
           <div className="row pt-5 mr-auto">
             <div className="col-8 form-group pt-2 mr-auto">
