@@ -1,7 +1,9 @@
 import "./index.css";
 import React from "react";
 
-const CompanyInfo = () => {
+const CompanyInfo = () => { 
+
+
   return (
     <section className="services" id="services">
          <hr/>
@@ -15,7 +17,7 @@ const CompanyInfo = () => {
           <ul className="list-unstyled card-columns">
             <li className="item-list">Home Improvement Projects</li>
             <li className="item-list">Bathroom & Kitchen Remodel</li>
-            <li className="item-list">Section 1 Repairs</li>
+            <li className="item-list">Pool Demolition and Removal Services</li>
             <li className="item-list">Deck Construction & Restoration</li>
             <li className="item-list">Roofing & Stucco Repair</li>
             <li className="item-list">Outdoor Kitchen & Entertainment</li>
