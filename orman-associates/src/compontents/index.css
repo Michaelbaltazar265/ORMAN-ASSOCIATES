@@ -138,3 +138,9 @@
   }
 
  
+.carousel img {
+  max-height: 800px;  /* change this to whatever you want */
+  width: auto;
+}
+ 
+ 

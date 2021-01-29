@@ -3,6 +3,22 @@ import React from "react";
 
 const CompanyInfo = () => { 
 
+  const listOfServices = [
+    "Home Improvement Projects", 
+    "Bathroom & Kitchen Remodel", 
+    "Pool Demolition and Removal Services", 
+    "Deck Construction & Restoration", 
+    "Pacific Gas and Electric (PG&E) Certified", 
+    "Outdoor Kitchen & Entertainment", 
+    "Driveways and Concrete Repair", 
+    "and much more!"
+  ]; 
+
+  const renderList = listOfServices.map((item) => { 
+    return ( 
+    <li className='item-list'>{item}</li>
+    )
+  })
 
   return (
     <section className="services" id="services">
@@ -15,14 +31,7 @@ const CompanyInfo = () => {
         </h3>
         <div className="row">
           <ul className="list-unstyled card-columns">
-            <li className="item-list">Home Improvement Projects</li>
-            <li className="item-list">Bathroom & Kitchen Remodel</li>
-            <li className="item-list">Pool Demolition and Removal Services</li>
-            <li className="item-list">Deck Construction & Restoration</li>
-            <li className="item-list">Roofing & Stucco Repair</li>
-            <li className="item-list">Outdoor Kitchen & Entertainment</li>
-            <li className="item-list">Driveways and Concrete Repair</li>
-            <li className="item-list"> and much more!</li>
+          {renderList}
           </ul>
         </div>
         <div className="row col-2">
@@ -36,7 +45,7 @@ const CompanyInfo = () => {
           </p>
         </div>
       </div>
-      <hr/>
+      <hr/> 
     </section>
   );
 };
