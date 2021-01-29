@@ -25,7 +25,7 @@ const AboutUs = () => {
           <h4 className="card-title"> Meet Justin</h4>
             <div className="card-horizontal">
               <div className="img-square-wrapper">
-                <img src="//placehold.it/200" alt="" />
+                <img src="../justin-orman.jpeg" alt="justin orman" />
               </div>
               <div className="card-body">
                 <p className="card-text">
