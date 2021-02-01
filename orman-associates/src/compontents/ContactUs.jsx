@@ -27,21 +27,21 @@ const ContactUs = () => {
       <div className="container text-center">
         <h1>Contact Us</h1>
         <form onSubmit={sendEmail}>
-          <div className="row pt-5 mr-auto">
-            <div className="col-8 form-group ">
+          <div className="form-group">
+            <div className="col form-group ">
               <input type='text' className='form-control' placeholder='Name' name='name' required />
             </div>
-            <div className="col-8 form-group pt-2 mr-auto">
+            <div className="col form-group ">
               <input type='email' className='form-control' placeholder='Email Address' name='email' required />
             </div>
-            <div className="col-8 form-group pt-2 mr-auto">
+            <div className="col form-group ">
               <input type='text' className='form-control' placeholder='Subject' name='subject' required/>
             </div>
-            <div className="col-8 form-group pt-2 mr-auto">
+            <div className="col form-group ">
               <textarea className='form-control' name="message" id="" cols="30" rows="8" placeholder='Your message' required></textarea>
             </div>
-            <div className="col-8 pt-3 mr-auto">
-              <input type='submit' className='btn btn-info' value='Send' />
+            <div className="col form-group ">
+              <input type='submit' className='btn btn-primary btn-lg btn-block' value='Send' />
             </div>
           </div>
         </form>
