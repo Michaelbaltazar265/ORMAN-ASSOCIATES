@@ -9,11 +9,10 @@
   width: 80px;
 }
 
-.navbar-nav .nav-item { 
+.navbar-nav .navbar { 
   display: inline-block;
-  list-style-type: none;
-  padding-right: 20px;
-  vertical-align: middle;
+  /* list-style-type: none; */
+  
 }
 
 
@@ -142,5 +141,24 @@
   max-height: 800px;  /* change this to whatever you want */
   width: auto;
 }
+
+
  
+@media only screen and (max-width: 768px) {
+  .container {
+      max-width: 675px; 
+      justify-content: center;
+      align-items: center;
+  } 
+  img { 
+      justify-content: center;
+      align-items: center;
+  } 
+
+  .talkbubble { 
+    display: none;
+  }
+
+}
+
  
