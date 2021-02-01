@@ -28,7 +28,7 @@ const ContactUs = () => {
         <h1>Contact Us</h1>
         <form onSubmit={sendEmail}>
           <div className="row pt-5 mr-auto">
-            <div className="col-8 form-group pt-2 mr-auto">
+            <div className="col-8 form-group ">
               <input type='text' className='form-control' placeholder='Name' name='name' required />
             </div>
             <div className="col-8 form-group pt-2 mr-auto">

@@ -2,13 +2,13 @@
 import "./index.css";
 import React from "react";
 import Header from "./Header";
-import CarouselComponent from "./CarouselImage";
-import Quote from './quote';
-import CompanyInfo from './CompanyInfo';
-import AboutUs from './AboutUs';
-import Testimonial from './Testimonial';
-import ContactUs from './ContactUs';
-import Footer from './Footer'
+ import CarouselComponent from "./CarouselImage";
+ import Quote from './quote';
+ import CompanyInfo from './CompanyInfo';
+ import AboutUs from './AboutUs';
+ import Testimonial from './Testimonial';
+ import ContactUs from './ContactUs';
+ import Footer from './Footer'
 
 class App extends React.Component {
   constructor(props) { 
@@ -41,11 +41,11 @@ class App extends React.Component {
           <div className="container">
             <CarouselComponent />
           </div>
-          < CompanyInfo />
-          < AboutUs />
+           < CompanyInfo />
+           < AboutUs />
           < Testimonial />
-          < ContactUs />
-          < Footer />
+         < ContactUs />
+          < Footer /> 
         </>
       );
     }
