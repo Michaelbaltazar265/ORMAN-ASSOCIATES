@@ -20,24 +20,30 @@ const AboutUs = () => {
             homeowners accomplish their home improvement dreams!
           </p>
         </div>
-        <div className="row">
-          <div className="card">
-          <h4 className="card-title p-4"> Meet Justin</h4>
-            <div className="card-horizontal">
-              <div className="img-square-wrapper">
-                <img src="../justin-orman.jpeg" alt="justin orman" />
+        <div className="card mb-3">
+          <div className="row no-gutters">
+            
+              <div className="col-md-4">
+                <img
+                  className="card-img"
+                  src="../justin-orman.jpeg"
+                  alt="justin orman"
+                />
               </div>
-              <div className="card-body">
-                <p className="card-text">
-                  Justin started his construction career in 1988 working for
-                  SOBA Construction learning the trade skills he would need to
-                  eventually earn an A, B and Hazardous Materials Contractors
-                  License. Today he applies his years of project management and
-                  hands on labor experience to run an efficient and professional
-                  crew of skilled laborers.
-                </p>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h4 className="card-title p-4"> Meet Justin</h4>
+                  <p className="card-text">
+                    Justin started his construction career in 1988 working for
+                    SOBA Construction learning the trade skills he would need to
+                    eventually earn an A, B and Hazardous Materials Contractors
+                    License. Today he applies his years of project management
+                    and hands on labor experience to run an efficient and
+                    professional crew of skilled laborers.
+                  </p>
+                </div>
               </div>
-            </div>
+            
           </div>
         </div>
       </div>
