@@ -22,7 +22,7 @@ const AboutUs = () => {
         </div>
         <div className="row">
           <div className="card">
-          <h4 className="card-title"> Meet Justin</h4>
+          <h4 className="card-title p-4"> Meet Justin</h4>
             <div className="card-horizontal">
               <div className="img-square-wrapper">
                 <img src="../justin-orman.jpeg" alt="justin orman" />
