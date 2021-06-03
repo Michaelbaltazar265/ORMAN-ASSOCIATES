@@ -5,13 +5,14 @@
     padding: 10px;
 }
 
-.logo {
-  width: 80px;
-}
-
 .navbar-nav .navbar { 
   display: inline-block;
   /* list-style-type: none; */
+  
+}
+
+.nav-item:hover { 
+  background-color: lightgray;
   
 }
 
@@ -138,10 +139,19 @@
 
  
 .carousel img {
-  max-height: 800px;  /* change this to whatever you want */
+  max-height: 500px;  /* change this to whatever you want */
   width: auto;
 }
 
+.carousel .slide{ background-color: none; }
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  color: red;
+  font-size: 50px;
+}
 
  
 @media only screen and (max-width: 768px) {
@@ -161,4 +171,22 @@
 
 }
 
+.align-left {
+  float: left;
+  margin-right: 20px;
+} 
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+} 
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
  

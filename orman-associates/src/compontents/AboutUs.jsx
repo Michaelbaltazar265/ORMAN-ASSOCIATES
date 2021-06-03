@@ -1,7 +1,10 @@
 import "./index.css";
-import React from "react";
+import React from 'react';
 
-const AboutUs = () => {
+const AboutUs = () => { 
+
+  
+
   return (
     <section className="about-us" id="about-us">
       <div className="container text-center">
@@ -25,7 +28,7 @@ const AboutUs = () => {
             
               <div className="col-md-4">
                 <img
-                  className="card-img"
+                  className="card-img align-left slide-in active"
                   src="../justin-orman.jpeg"
                   alt="justin orman"
                 />

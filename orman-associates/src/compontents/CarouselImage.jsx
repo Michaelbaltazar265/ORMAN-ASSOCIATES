@@ -9,30 +9,28 @@ const  CarouselComponent = ()=> {
     <div className="carousel-wrapper">
     <Carousel infiniteLoop useKeyboardArrows autoPlay className='carousel'>
         <div>
-            <img src='../backyard-1.jpg' alt="laying out the foundation" />
+            <img className='carousel-images' src='../backyard-1.jpg' alt="laying out the foundation" />
         </div>
         <div>
-            <img src="../backyard-2.jpg" alt="layout" />
+            <img className='carousel-images' src="../backyard-3.jpg" alt="layout" />
         </div>
         <div>
-            <img src="../backyard-3.jpg" alt="waiting for it to dry"/>
+            <img className='carousel-images' src="../backyard-2.jpg" alt="waiting for it to dry"/>
         </div>
         <div>
-            <img src="../backyard-4.jpg" alt="finished"/>
+            <img className='carousel-images' src="../backyard-4.jpg" alt="finished"/>
         </div>
         <div>
-            <img  src="../cat-excavator-1.jpg" alt="cat-excavator"/>
+            <img className='carousel-images'  src="../cat-excavator-1.jpg" alt="cat-excavator"/>
         </div>
         <div>
-            <img  src="../commercial-work-2.jpg" alt="commercial-work"/>
-        </div>
-        
-
-        <div>
-            <img  src="../staircase-before.jpg" alt="before "/>
+            <img className='carousel-images' src="../commercial-work-2.jpg" alt="commercial-work"/>
         </div>
         <div>
-            <img  src="../staircase-after.jpg" alt="after"/>
+            <img className='carousel-images'  src="../staircase-before.jpg" alt="before "/>
+        </div>
+        <div>
+            <img className='carousel-images'  src="../staircase-after.jpg" alt="after"/>
         </div>
     </Carousel>
 </div>
