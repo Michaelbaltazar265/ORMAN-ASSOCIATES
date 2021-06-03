@@ -18,7 +18,7 @@ const ContactUs = () => {
         (error) => {
           console.log(error.text);
         });
-
+        alert("Thank you for submitting your information we will be in contact with you shortly. ");
         e.target.reset()
   }
 

@@ -4,11 +4,11 @@ import React from "react";
 const CompanyInfo = () => {
   const listOfServices = [
     "Home Improvement Projects",
-    "Bathroom & Kitchen Remodel",
+    "Underground utility construction ",
     "Pool Demolition and Removal Services",
     "Deck Construction & Restoration",
     "Pacific Gas and Electric (PG&E) Certified",
-    "Outdoor Kitchen & Entertainment",
+    "Excavation and oundation contractors",
     "Driveways and Concrete Repair",
     "and much more!",
   ];
